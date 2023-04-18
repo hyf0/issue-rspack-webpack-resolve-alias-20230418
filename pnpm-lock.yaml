@@ -2,12 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@rspack/cli': 0.1.7
+  moment: ^2.29.4
   npm-run-all: ^4.1.5
   webpack: ^5.79.0
   webpack-cli: ^5.0.1
 
 dependencies:
   '@rspack/cli': 0.1.7_webpack-cli@5.0.1
+  moment: 2.29.4
   webpack: 5.79.0_webpack-cli@5.0.1
   webpack-cli: 5.0.1_webpack@5.79.0
 
@@ -2160,6 +2162,10 @@ packages:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
       brace-expansion: 1.1.11
+
+  /moment/2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
+    dev: false
 
   /mrmime/1.0.1:
     resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==}
