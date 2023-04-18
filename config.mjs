@@ -35,11 +35,8 @@ const config = {
   resolve: {
     alias: {
       "!!raw-loader!moment": path.resolve(__dirname, "./node_modules/moment/moment.js?raw"),
-      // Webpack fail
+      // Webpack success
       // Rspack fail
-      // "!!raw-loader!moment": path.resolve(__dirname, "./node_modules/moment/moment.js"),
-      // Rspack success
-      // Webpack fail
     },
   },
 };
